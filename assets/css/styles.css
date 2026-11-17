@@ -600,6 +600,7 @@ footer .desc {
 .footer .social {
     display: flex;
     margin-top: 40px;
+    gap: 16px;
 }
 
 .footer .social .social-link {
