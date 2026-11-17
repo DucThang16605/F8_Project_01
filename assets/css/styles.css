@@ -6,6 +6,10 @@
     --primary-color: #0f1b4c;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -61,9 +65,10 @@ a {
 .header {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - 90px);
     background-color: #e6f0ff;
     position: relative;
+    justify-content: center;
 }
 
 .navbar {
@@ -101,10 +106,6 @@ a {
 
 .navbar .action-btn {
     padding: 13px 16px;
-}
-
-.hero {
-    margin-top: 130px;
 }
 
 .hero .info {
@@ -192,6 +193,7 @@ a {
 /* ================================ Guides ================================== */
 .guides {
     margin-top: 133px;
+    scroll-margin-top: 90px;
 }
 
 .guides .sub-title {
@@ -372,6 +374,7 @@ a {
 /* ================================ Stats ================================== */
 .stats {
     margin-top: 75px;
+    scroll-margin-top: 90px;
 }
 
 .stats .content {
